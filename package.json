@@ -1,0 +1,19 @@
+{
+  "name": "gatsby-theme-schema-extensions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rheinard Korf (@rheinardkorf)",
+  "license": "MIT",
+  "description": "A Gatsby theme to add additional extensions to the GraphQL SDL.",
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "schema",
+    "extensions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rheinardkorf/gatsby-theme-schema-extensions.git"
+  }
+}
