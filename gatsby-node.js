@@ -22,7 +22,6 @@ exports.createSchemaCustomization = ({ store, reporter, actions }) => {
       from: `String!`
     },
     extend(options, fieldConfig) {
-      console.log(options, fieldConfig);
       return {
         async resolve(source, args, context, info) {
           const from = options.from || info.from;
